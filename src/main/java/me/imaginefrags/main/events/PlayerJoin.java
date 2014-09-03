@@ -93,7 +93,6 @@ public class PlayerJoin implements Listener {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         if (Arrays.donor.contains(p.getName())) {
             for (Player online : Bukkit.getOnlinePlayers()) {
                 Donate.launchFirework(online);

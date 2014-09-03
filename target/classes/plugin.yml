@@ -1,0 +1,61 @@
+name: Hub
+main: me.imaginefrags.main.Core
+version: ALPHA
+author: ImagineFrags
+description: Hub plugin for PVPWarfare.
+
+commands:
+    spawn:
+        description: Use this command to go to spawn!
+        aliases: ["hub"]
+    msg:
+        description: Use this command to message players!
+        aliases: ["message", "tell", "whisper", "say"]
+    report:
+        description: Use this command to report a player to a staff member!
+    chatmute:
+        description: Use this command to mute the chat!
+    chatunmute:
+        description: Use this command to un-mute the chat!
+    fly:
+        description: Use this command to fly!
+    staff:
+        description: Use this command to chat with staff members!
+        aliases: ["s"]
+    pmon:
+        description: Use this command to enable pm!
+    pmoff:
+        description: Use this command to disable pm!
+    donor:
+        description: Use this command when someone donates!
+    r:
+        description: Use this command to reply to someone!
+        aliases: ["reply"]
+permissions:
+    rank.guest:
+        description: Guest rank!
+        default: true
+    rank.donor:
+        description: Donor rank!
+        default: false
+    rank.vip:
+        description: VIP rank!
+        default: false
+    rank.mod:
+        description: Mod rank!
+        default: false
+    rank.srmod:
+        description: SrMod rank!
+        default: false
+    rank.admin:
+        description: Admin rank!
+        default: false
+    rank.owner:
+        description: Owner rank!
+        default: false
+    rank.dev:
+        description: Dev rank!
+        default: false
+    rank.staff:
+        description: Staff Perm!
+        default: false
