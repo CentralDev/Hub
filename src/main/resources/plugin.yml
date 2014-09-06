@@ -31,6 +31,8 @@ commands:
     r:
         description: Use this command to reply to someone!
         aliases: ["reply"]
+    sign:
+        description: Use this command to make a sign connect to a server!
 permissions:
     rank.guest:
         description: Guest rank!

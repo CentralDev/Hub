@@ -1,5 +1,7 @@
 package me.imaginefrags.main.utils;
 
+import me.imaginefrags.main.Signs.StatusSign;
+
 import java.util.ArrayList;
 
 /**
