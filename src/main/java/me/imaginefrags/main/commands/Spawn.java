@@ -33,6 +33,12 @@ public class Spawn implements CommandExecutor {
             player.teleport(new Location(Bukkit.getWorld("world"), 0.48555, 81.000, 0.56577, 179.80573F, 2F));
             return true;
         }
+        if (cmd.getName().equalsIgnoreCase("hugz")) {
+            if (args.length != 0) {
+                sender.sendMessage(ChatColor.RED + "Error.");
+                return true;
+            }
+        }
         return false;
     }
 }
